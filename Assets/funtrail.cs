@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Finch;
 using UnityEngine;
-public class FinchFunTrail : MonoBehaviour {
+public class funtrail : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
