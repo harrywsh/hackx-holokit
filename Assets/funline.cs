@@ -8,8 +8,8 @@ public class funline : MonoBehaviour {
     public GameObject linerwt;
     public List<GameObject> alline;
     public bool drawnow;
+    public double flag = 0;
     public FinchChirality Chirality;
-
     // Use this for initialization
     void Start () {
 
@@ -17,16 +17,19 @@ public class funline : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         FinchController controller = FinchVR.GetFinchController (Chirality);
-        if (Input.GetKeyDown (KeyCode.A) || controller.GetPress (FinchControllerElement.ButtonThumb)) {
+        //if (Input.GetKeyDown (KeyCode.A) || controller.GetPress (FinchControllerElement.ButtonThumb)) {
+        if (flag == 0) {
             setdrawnow (1);
-            print ("ok");
         }
+        flag++;
+        //}
         if (Input.GetKeyDown (KeyCode.B) || controller.GetPress (FinchControllerElement.ButtonThumb)) {
             setdrawnow (2);
         }
         if (drawnow) {
             setline ();
         }
+        
     }
     public void setdrawnow (int id) {
         if (id == 1) {
