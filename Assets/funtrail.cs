@@ -14,7 +14,7 @@ public class funtrail : MonoBehaviour {
 	void Update () {
 		FinchController controller = FinchVR.GetFinchController (Chirality);
 
-		if (Input.GetKeyDown (KeyCode.A) || controller.GetPressDown (FinchControllerElement.ButtonThumb)) {
+		if (Input.GetKeyDown (KeyCode.A) || controller.GetPress (FinchControllerElement.ButtonThumb)) {
 			kk.enabled = false;
 		}
 	}
