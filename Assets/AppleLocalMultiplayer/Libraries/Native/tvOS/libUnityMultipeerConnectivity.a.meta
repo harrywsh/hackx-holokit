@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 1ff721de8bbe1405690d9da481a9d9e8
+timeCreated: 1498680214
+licenseType: Store
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    tvOS:
+      enabled: 1
+      settings:
+        CompileFlags: -ObjC
+        FrameworkDependencies: MultipeerConnectivity;CoreBluetooth
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
