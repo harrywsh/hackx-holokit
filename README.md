@@ -1,14 +1,12 @@
 # 基于Holokit的跟随寻路宠物
 
-### 在Holokit的MR视野中，出现跟随使用者的海豚以及使用者走过的路径。
+在Holokit的MR视野中，出现跟随使用者的海豚以及使用者走过的路径。
 
 ## 详情描述
 本项目是基于[Holokit](https://holokit.163.com)的MR应用，在iOS平台上使用。戴上Holokit眼睛后，使用者可以通过Finch手柄控制app中路径显示的开始和停止。在行走过程中，MR视野里有一只自动跟随使用者的海豚，海豚的身后有彩色的路径显示。在海豚的陪伴下，行走的过程将不再无聊，而彩色的路径也提供了返回时路线的参考，迷路将不再困扰！
 开发使用[HolokitSDK](https://github.com/holokit/holokitsdk)。
 
 项目主页：https://www.hackx.org/projects/356
-## 视频展示
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vuaPAbae7dE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## 创意来源
 一个人在陌生的地方行走时，经常会遇到忘记返回的路的情况。同时，行走过程中的枯燥也是难以避免的。在这种现状下，我们决定制作一个app，能在MR视野下记录走来的路径，并有跟随宠物的陪伴，以此增加行走的趣味性并减少迷路的风险。
